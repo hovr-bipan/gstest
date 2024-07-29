@@ -4,3 +4,4 @@ COPY . /test
 RUN go build /test
 EXPOSE 8000
 ENTRYPOINT [ "./gsithubtest" ]
+
